@@ -1,0 +1,27 @@
+/** 部品　ボタン */
+
+@use "../globals" as *;
+
+.btn {
+  display: inline-block;
+  background-color: $cWhite;
+  border: 1px solid $cBlue;
+  font-weight: 600;
+  padding: 10px 40px;
+  margin: 10px auto;
+  cursor: pointer;
+  transition: all 0.3s;
+  color: $cBlue;
+
+  &.filled {
+    background-color: $cBlue;
+    color: $cWhite;
+    box-shadow: 5px 5px 6px 0 rgba(0, 0, 0, 0.5);
+
+    &:hover {
+      background-color: $cWhite;
+      color: $cBlue;
+      box-shadow: none;
+    }
+  }
+}

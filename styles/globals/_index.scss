@@ -1,0 +1,22 @@
+/** 全体で使用する */
+
+$cWhite: #f7f7f7;
+$cBlue: #004D79;
+$cSectionTitle: 50px;
+$contentMaxWidth: 1070px;
+$navHeight: 100px;
+
+body {
+  font-family: "Prompt", "IBM Plex Sans JP", "Noto Sans JP", sans-serif;
+  color: $cBlue;
+}
+
+.content-width {
+  width: 90%;
+  margin: 0 auto;
+  max-width: $contentMaxWidth;
+}
+
+.flex {
+  display: flex;
+}
